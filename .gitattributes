@@ -1,2 +1,167 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: gray;
+            padding: 45px;
+            display: flex;
+        }
+
+        .card {
+            background-color: white;
+            width: 400px;
+            height: auto;
+            border-radius: 7px;
+            padding: 0 0 64px 0;
+            margin: 4px;
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 7px;
+        }
+
+        .content h1 {
+            font-size: 10px;
+        }
+
+        .content p {
+            font-size: 13px;
+            color: grey;
+            font-family: "Libertinus Sans", sans-serif;
+            font-weight: 400;
+            font-style: bold;
+
+
+        }
+
+        .content {
+            padding: 13px;
+        }
+
+        .capsules {
+            padding: 0 34px 0 14px
+        }
+
+        .capsules span {
+            border: 1px solid grey;
+            padding: 1px 5px;
+            border-radius: 7px;
+            font-family: "Libertinus Sans", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .button button {
+            background-color: rgb(173, 230, 218);
+            color: rgb(85, 110, 252);
+            font-size: 14px;
+            padding: 4px 12px;
+            margin-top: 10px;
+            border-radius: 20px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+
+        .button button:hover {
+            background-color: rgb(207, 231, 243);
+            color: rgb(85, 110, 252);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="388px" src="https://wallpapercrafter.com/th800/6003-lake-boat-man-landscape-nature-4k.jpg"
+                alt="">
+        </div>
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+
+        </div>
+        <div class="content">
+            <h2>BEAUTIFUL LANDSCAPE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi exercitationem dolores ipsa! Atque, esse
+                molestias hic id perferendis, corrupti aliquid odio blanditiis nostrum veniam, consequuntur voluptatibus
+                saepe fugit voluptate sunt!
+            </p>
+
+        </div>
+        <div class="button">
+            <button>Read more</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="388px"
+                src="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
+                alt="">
+        </div>
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+
+        </div>
+        <div class="content">
+            <h2>BEAUTIFUL LANDSCAPE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi exercitationem dolores ipsa! Atque, esse
+                molestias hic id perferendis, corrupti aliquid odio blanditiis nostrum veniam, consequuntur voluptatibus
+                saepe fugit voluptate sunt!
+            </p>
+
+        </div>
+        <div class="button">
+            <button>Read more</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="388px" height="215px"
+                src="https://media.istockphoto.com/id/485371557/photo/twilight-at-spirit-island.jpg?s=612x612&w=0&k=20&c=FSGliJ4EKFP70Yjpzso0HfRR4WwflC6GKfl4F3Hj7fk="
+                alt="">
+        </div>
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+
+        </div>
+        <div class="content">
+            <h2>BEAUTIFUL LANDSCAPE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi exercitationem dolores ipsa! Atque, esse
+                molestias hic id perferendis, corrupti aliquid odio blanditiis nostrum veniam, consequuntur voluptatibus
+                saepe fugit voluptate sunt!
+            </p>
+
+        </div>
+        <div class="button">
+            <button>Read more</button>
+        </div>
+    </div>
+</body>
+
+</html>
